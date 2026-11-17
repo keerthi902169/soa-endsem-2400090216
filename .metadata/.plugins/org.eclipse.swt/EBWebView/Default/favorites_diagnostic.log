@@ -1,0 +1,19 @@
+2026-11-17 09:44:11.910: [INFO] CurrentProfilePath: C:\EndSemWorkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-11-17 09:44:11.910: [INFO] Profiles total count: 1
+2026-11-17 09:44:11.910: [INFO] Profile: name=Profile 1 path=C:\EndSemWorkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-11-17 09:44:11.910: [INFO] LastUsedProfileDir: C:\EndSemWorkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-11-17 09:44:11.910: [INFO] OnDoneLoading sync enabled: 0
+2026-11-17 09:44:11.910: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-17 09:44:11.910: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-17 09:44:11.910: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-17 09:46:44.817: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-17 09:47:11.054: [INFO] CurrentProfilePath: C:\EndSemWorkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-11-17 09:47:11.054: [INFO] Profiles total count: 1
+2026-11-17 09:47:11.054: [INFO] Profile: name=Profile 1 path=C:\EndSemWorkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-11-17T09:46:06.769Z
+2026-11-17 09:47:11.054: [INFO] LastUsedProfileDir: C:\EndSemWorkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-11-17 09:47:11.054: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\EndSemWorkspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-11-17T09:46:06.769Z
+2026-11-17 09:47:11.054: [INFO] OnDoneLoading sync enabled: 0
+2026-11-17 09:47:11.054: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-17 09:47:11.054: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-17 09:47:11.054: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-17 10:11:48.825: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

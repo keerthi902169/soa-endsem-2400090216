@@ -1,0 +1,37 @@
+
+services:
+  craftworkshop-dbb:
+    image: postgres:16
+    container_name: craftworkshop-dbb
+    environment:
+      POSTGRES_DB: exam_2400090216
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5435:5432"
+    volumes:
+      - craftworkshop_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d exam_2400090216"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  craftworkshop-backend:
+    image: keerthinarne26/docker-backendd-2400090216:latest
+    build:
+      context: ./Backend
+      dockerfile: Dockerfile
+    container_name: craftworkshop-backendd
+    ports:
+      - "8083:8081"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://craftworkshop-dbb:5432/exam_2400090216
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: postgres
+    depends_on:
+      craftworkshop-dbb:
+        condition: service_healthy
+
+volumes:
+  craftworkshop_db_data:
